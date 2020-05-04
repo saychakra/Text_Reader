@@ -6,9 +6,12 @@ pytessaract should be installed. Follow the below steps if not.
 
 #### On Linux
 
-sudo apt-get update
-sudo apt-get install tesseract-ocr
-sudo apt-get install libtesseract-dev
+sudo apt-get update  
+sudo apt-get install tesseract-ocr  
+sudo apt-get install libtesseract-dev  
+On addition to this. Please make sure pillow is also installed. So, the following also needs to be present  
+python3 -m pip install pillow  
+python3 -m pip install pytesseract
 
 #### On Mac
 
